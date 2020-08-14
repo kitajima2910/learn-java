@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE courierList SYSTEM "assignment-3.dtd" >
+
+<courierList>
+    <courier>
+        <despatch-details>
+            <Brfrom>
+                <from-region>Văn phòng gửi 1</from-region>
+                <from-branch>Chi nhanh gửi 1</from-branch>
+            </Brfrom>
+            <Brto>
+                <to-region>Văn phòng nhận 1</to-region>
+                <to-branch>Chi nhanh nhận 1</to-branch>
+            </Brto>
+        </despatch-details>
+        <courier-details address-number="address 1" street="street 1">
+            <from>Địa chỉ người gửi 1</from>
+            <to>Địa chỉ người nhận 1</to>
+            <buiding building-floor="building-floor 1" room-no="room-no 1"/>
+        </courier-details>
+        <transportation method="&byair;">
+            <from-date>from-date 1</from-date>
+            <to-date>to-date 1</to-date>
+        </transportation>
+    </courier>
+</courierList>

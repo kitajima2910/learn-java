@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns:CD="http://abc.com" xmlns:Book="htto://abc.com">
+    <CD:Title CD:Type="String">A</CD:Title>
+    <Book:Title>B</Book:Title>
+</root>
+

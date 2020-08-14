@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ExampleDoctors">
+  <ClassDiagramComponents>
+    <Class name="App" package="com.fpt.main" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Doctor" package="com.fpt.model" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="code" type="String" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="specilization" type="String" visibility="private"/>
+        <Field name="hour" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="code"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="specilization"/>
+          <Argument type="int" name="hour"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCode" returnType="String" visibility="public"/>
+        <Method name="setCode" returnType="void" visibility="public">
+          <Argument type="String" name="code"/>
+        </Method>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="getSpecilization" returnType="String" visibility="public"/>
+        <Method name="setSpecilization" returnType="void" visibility="public">
+          <Argument type="String" name="specilization"/>
+        </Method>
+        <Method name="getHour" returnType="int" visibility="public"/>
+        <Method name="setHour" returnType="void" visibility="public">
+          <Argument type="int" name="hour"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DoctorService" package="com.fpt.service" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="doctors" type="Map&lt;String, Doctor&gt;" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="addDoctor" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Scanner" name="s"/>
+        </Method>
+        <Method name="showAll" returnType="void" visibility="public" isStatic="true"/>
+        <Method name="search" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Scanner" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Menu" package="com.fpt.util" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="show" returnType="void" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="Validation" package="com.fpt.util" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="message"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMessage" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="WriterData" package="com.fpt.util" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="writeDateFile" returnType="void" visibility="public">
+          <Argument type="List&lt;T&gt;" name="t"/>
+          <Argument type="String" name="path"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="doctors" source="com.fpt.service.DoctorService" target="com.fpt.model.Doctor" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="Map&lt;String, Doctor&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

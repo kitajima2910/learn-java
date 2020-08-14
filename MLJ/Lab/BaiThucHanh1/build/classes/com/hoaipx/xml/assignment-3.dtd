@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT courierList (courier)*>
+
+<!ENTITY byair "by byair">
+<!ENTITY bytrain "by bytrain">
+<!ENTITY byship "by byship">
+<!ENTITY bytruck "by bytruck">
+
+    <!ELEMENT courier (despatch-details,courier-details,transportation)>
+        <!ELEMENT despatch-details (Brfrom,Brto)>
+            <!ELEMENT Brfrom (from-region,from-branch)>
+                <!ELEMENT from-region (#PCDATA)>
+                <!ELEMENT from-branch (#PCDATA)>
+            <!ELEMENT Brto (to-region,to-branch)>
+                <!ELEMENT to-region (#PCDATA)>
+                <!ELEMENT to-branch (#PCDATA)>
+        <!ELEMENT courier-details (from,to,buiding)>
+            <!ATTLIST courier-details address-number CDATA #REQUIRED>
+            <!ATTLIST courier-details street CDATA #REQUIRED>
+            <!ELEMENT from (#PCDATA)>
+            <!ELEMENT to (#PCDATA)>
+            <!ELEMENT buiding EMPTY>
+                <!ATTLIST buiding building-floor CDATA #REQUIRED>
+                <!ATTLIST buiding room-no CDATA #REQUIRED>
+        <!ELEMENT transportation (from-date,to-date)>
+            <!ATTLIST transportation method ENTITY #REQUIRED>
+            <!ELEMENT from-date (#PCDATA)>
+            <!ELEMENT to-date (#PCDATA)>
+            
+            
+

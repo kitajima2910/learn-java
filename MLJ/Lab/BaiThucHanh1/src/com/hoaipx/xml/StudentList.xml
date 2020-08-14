@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DisplayStudentList.xsl"?>
+<StudentList>
+    <Class>T1.1910.M3</Class>
+    <Student>
+        <Code>Student00001</Code>
+        <Name>Nguyễn Văn A</Name>
+        <Mark>80</Mark>
+    </Student>
+    <Student>
+        <Code>Student00002</Code>
+        <Name>Nguyễn Văn B</Name>
+        <Mark>85</Mark>
+    </Student>
+    <Student>
+        <Code>Student00003</Code>
+        <Name>Nguyễn Văn C</Name>
+        <Mark>90</Mark>
+    </Student>
+    <Student>
+        <Code>Student00004</Code>
+        <Name>Nguyễn Văn D</Name>
+        <Mark>95</Mark>
+    </Student>
+    <Student>
+        <Code>Student00005</Code>
+        <Name>Nguyễn Văn E</Name>
+        <Mark>100</Mark>
+    </Student>
+</StudentList>

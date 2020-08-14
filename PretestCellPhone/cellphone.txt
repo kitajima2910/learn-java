@@ -1,0 +1,2 @@
+CellPhone{cellCode=C1111-111, cellName=Hoai, cellPrice=2.34, cellDate=2020-06-03, cellProducer=samsung, cellEmail=abc@aa.aa}
+CellPhone{cellCode=C2222-222, cellName=Lan, cellPrice=3.0, cellDate=2002-05-21, cellProducer=nokia, cellEmail=abc@xyz.com}

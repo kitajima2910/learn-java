@@ -1,0 +1,12 @@
+2
+ST001
+Pham01
+Hoai01
+23
+[[Name: Toan - Score: 0]]
+ST002
+Pham02
+Hoai02
+43
+[[Name: Tin - Score: 0]]
+

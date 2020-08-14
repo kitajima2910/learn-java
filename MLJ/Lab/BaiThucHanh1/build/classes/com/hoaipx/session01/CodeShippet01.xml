@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Music_Libary SYSTEM "CodeShippet01.dtd">
+
+<Music_Libary>
+	<Title>Title 01</Title>
+	<Artist>Artist 01</Artist>
+	<Country>&MS; - Country 01</Country>
+	<Price>Price 01</Price>
+	<Year>Year 01</Year>
+</Music_Libary>

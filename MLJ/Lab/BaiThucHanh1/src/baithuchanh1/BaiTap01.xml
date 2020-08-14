@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BookCatalog>
+    <Book>
+        <title>Sách 01</title>
+        <author>FPT 1</author>
+        <pages units="page">500</pages>
+        <price units="$">20</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 02</title>
+        <author>FPT 2</author>
+        <pages units="page">2500</pages>
+        <price units="$">220</price>
+        <accompany>VCD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 03</title>
+        <author>FPT 3</author>
+        <pages units="page">3500</pages>
+        <price units="$">320</price>
+        <accompany>Both</accompany>
+    </Book>
+    <Book>
+        <title>Sách 04</title>
+        <author>FPT 4</author>
+        <pages units="page">4500</pages>
+        <price units="$">420</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 05</title>
+        <author>FPT 5</author>
+        <pages units="page">5500</pages>
+        <price units="$">520</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 06</title>
+        <author>FPT 6</author>
+        <pages units="page">6500</pages>
+        <price units="$">620</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 07</title>
+        <author>FPT 7</author>
+        <pages units="page">7500</pages>
+        <price units="$">720</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 08</title>
+        <author>FPT 1</author>
+        <pages units="page">8500</pages>
+        <price units="$">820</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 09</title>
+        <author>FPT 9</author>
+        <pages units="page">9500</pages>
+        <price units="$">209</price>
+        <accompany>CD</accompany>
+    </Book>
+    <Book>
+        <title>Sách 10</title>
+        <author>FPT 10</author>
+        <pages units="page">5100</pages>
+        <price units="$">210</price>
+        <accompany>CD</accompany>
+    </Book>
+</BookCatalog>

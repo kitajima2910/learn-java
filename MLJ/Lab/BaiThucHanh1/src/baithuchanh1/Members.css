@@ -1,0 +1,41 @@
+Title {
+    font-family: cursive;
+    font-size: 36px;
+    color: aquamarine;
+    background-color: violet;
+    width: 340px;
+    text-align: center;
+    border: 1px solid red;
+    display: block;
+}
+
+Member[gender] {
+    font-family: sans-serif;
+    color: green;
+    display: block;
+    width: 340px;
+    border: 1px solid red;
+}
+
+id {
+    color: red;
+    text-indent: 10px;
+    width: 70px;
+    display: inline-table;
+}
+
+name {
+    width: 100px;
+    display: inline-table;
+}
+
+bod {
+    width: 100px;
+    display: inline-table;     
+}
+
+rate {
+    width: 50px;
+    display: inline-table;
+    text-align: right;
+}

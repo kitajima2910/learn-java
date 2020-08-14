@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="assignment-5.css"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<university>
+    <university_name>FPT-Aptech</university_name>
+    <university_address>Nam quoc Cang</university_address>
+    <semesters>
+        <semester_name>Semester I</semester_name>
+        <subject>
+            <subject_name>Logic C</subject_name>
+            <student>
+                <student_name>Nguyen Hue</student_name>
+                <score>100</score>
+            </student>
+            <student>
+                <student_name>Nguyen Trai</student_name>
+                <score>100</score>
+            </student>
+            <student>
+                <student_name>Tran Quoc Tuan</student_name>
+                <score>95</score>
+            </student>
+        </subject>
+        <subject>
+            <subject_name>DHTML</subject_name>
+            <student>
+                <student_name>Nguyen Du</student_name>
+                <score>100</score>
+            </student>
+            <student>
+                <student_name>Nguyen Dinh Chieu</student_name>
+                <score>90</score>
+            </student>
+            <student>
+                <student_name>Tu Xuong</student_name>
+                <score>80</score>
+            </student>
+            <student>
+                <student_name>Ho Xuan Huong</student_name>
+                <score>85</score>
+            </student>
+        </subject>
+    </semesters>
+    <semesters>
+        <semester_name>Semester II</semester_name>
+        <subject>
+            <subject_name>Java 1</subject_name>
+            <student>
+                <student_name>Tran Hung Dao</student_name>
+                <score>100</score>
+            </student>
+            <student>
+                <student_name>Ly Thu Do</student_name>
+                <score>95</score>
+            </student>
+            <student>
+                <student_name>Le Van Duyet</student_name>
+                <score>95</score>
+            </student>
+            <student>
+                <student_name>Dinh Tien Hoang</student_name>
+                <score>90</score>
+            </student>
+        </subject>
+        <subject>
+            <subject_name>Java 2</subject_name>
+            <student>
+                <student_name>Tran Hung Dao</student_name>
+                <score>100</score>
+            </student>
+        </subject>
+    </semesters>
+</university>

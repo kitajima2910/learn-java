@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InvoiceList xmlns:hcm="http://abc.com" xmlns:dn="http://abc.com" xmlns:hn="http://abc.com">
+    <hn:Invoice>
+        <Order OrderID="">
+            <Customername></Customername>
+            <Address></Address>
+            <TotalPrice></TotalPrice>
+        </Order>
+        <Cod>
+            <Shippingaddress></Shippingaddress>
+            <Shippingmethod></Shippingmethod>
+            <Shippingtotal></Shippingtotal>
+        </Cod>
+        <Account State="">
+            <Customerid></Customerid>
+            <Invoiceperiod></Invoiceperiod>
+            <ShippingInfo>
+                <Shipdate></Shipdate>
+                <Billingaddress></Billingaddress>
+            </ShippingInfo>
+        </Account>
+        <Description></Description>
+    </hn:Invoice>
+    <dn:Invoice>
+        <Order OrderID="">
+            <Customername></Customername>
+            <Address></Address>
+            <TotalPrice></TotalPrice>
+        </Order>
+        <Cod>
+            <Shippingaddress></Shippingaddress>
+            <Shippingmethod></Shippingmethod>
+            <Shippingtotal></Shippingtotal>
+        </Cod>
+        <Account State="">
+            <Customerid></Customerid>
+            <Invoiceperiod></Invoiceperiod>
+            <ShippingInfo>
+                <Shipdate></Shipdate>
+                <Billingaddress></Billingaddress>
+            </ShippingInfo>
+        </Account>
+        <Description></Description>
+    </dn:Invoice>
+    <hcm:Invoice>
+        <Order OrderID="">
+            <Customername></Customername>
+            <Address></Address>
+            <TotalPrice></TotalPrice>
+        </Order>
+        <Cod>
+            <Shippingaddress></Shippingaddress>
+            <Shippingmethod></Shippingmethod>
+            <Shippingtotal></Shippingtotal>
+        </Cod>
+        <Account State="">
+            <Customerid></Customerid>
+            <Invoiceperiod></Invoiceperiod>
+            <ShippingInfo>
+                <Shipdate></Shipdate>
+                <Billingaddress></Billingaddress>
+            </ShippingInfo>
+        </Account>
+        <Description></Description>
+    </hcm:Invoice>
+</InvoiceList>

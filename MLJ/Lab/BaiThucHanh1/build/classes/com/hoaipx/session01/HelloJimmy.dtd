@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Program (Comments, Code)>
+<!ELEMENT Comments (#PCDATA)>
+<!ELEMENT Code (#PCDATA)>
+

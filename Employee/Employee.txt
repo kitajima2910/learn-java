@@ -1,0 +1,4 @@
+Employee{empId=E12-123, empName=A, address=HCM, email=aaa@g.com}
+Employee{empId=E13-134, empName=B, address=HN, email=bbb@b.b}
+Employee{empId=E14-234, empName=B, address=QN, email=BBB@B.B}
+Employee{empId=E56-435, empName=G, address=QN, email=GG@GG.G}

@@ -1,0 +1,50 @@
+university_name {
+    font-size: 100px;
+    color: #FF1493;
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+    background-color: #90EE90;
+    border-bottom: 2px solid #FF1493;
+    border-top: 2px solid #FF1493;
+}
+
+university_address {
+    font-size: 30px;
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+    color: #1332F6;
+    border-bottom: 1px solid #1332F6;
+    border-top: 1px solid #1332F6;
+    background-color: #FAEBD7;
+}
+
+semester_name {
+    display: inline-table;
+    width: 100%;
+    font-size: 20px;
+    text-indent: 20px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    background-color: #FFFACD;
+}
+
+subject_name {
+    display: inline-table;
+    width: 100%;
+    font-size: 16px;
+    text-indent: 40px;
+    color: brown;
+    font-weight: 400;
+    background-color: #FFD700;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+}
+
+student {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px 0 70px;
+}

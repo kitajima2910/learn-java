@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- danh sách giao hàng gồm 0..n hàng được giao -->
+<!ELEMENT delivered-products (delivered-product)*>
+<!-- Khai báo 2 entity về phương tiện giao hàng -->
+<!ENTITY moto "by motor" >
+<!ENTITY truck "by truck" >
+<!-- Thông tin về mặt hàng được giao gồm phiếu hoá đơn, khách hàng -->
+<!ELEMENT delivered-product (invoice, customer, product)>
+<!-- hoá đơn: thẻ trống chỉ gồm 2 thuộc tính số hoá đơn, ngày -->
+<!ELEMENT invoice EMPTY>
+    <!ATTLIST invoice id CDATA #REQUIRED 
+                      date CDATA #REQUIRED 
+                      by ENTITY #REQUIRED>
+<!-- khách hàng: tên, địa chỉ giao hàng -->
+<!ELEMENT customer (name, address) >
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+<!-- mặt hàng gồm id, tên, số lượng, đơn giá, chi id là thuộc tính -->
+<!ELEMENT product (product-name, quantity, price)>
+    <!ATTLIST product id CDATA #REQUIRED>
+    <!ELEMENT product-name (#PCDATA)>
+    <!ELEMENT quantity (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>

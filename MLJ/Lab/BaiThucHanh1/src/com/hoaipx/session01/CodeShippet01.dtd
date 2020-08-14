@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Music_Libary (Title,Artist,Country,Price,Year)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Artist (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ENTITY MS "Thatz Life">
+

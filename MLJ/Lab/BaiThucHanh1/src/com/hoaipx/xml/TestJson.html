@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TEST JSON</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+        <script src="Data.js"></script>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                text-align: center;
+            }
+            table, tr, td, th {
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body ng-app="myApp" ng-controller="namesCtrl">
+        <table>
+            <caption><h2>Best Phone List</h2></caption>
+            <tr>
+                <th>CODE</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>IMAGES</th>
+            </tr>
+            <tr ng-repeat="x in names">
+                <td>{{x.code}}</td>
+                <td>{{x.name}}</td>
+                <td>{{x.price}}</td>
+                <td><img src="{{x.img}}" width="65" /></td>
+            </tr>
+        </table>
+    </body>
+</html>

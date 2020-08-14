@@ -1,0 +1,4 @@
+Employee{id=E11-11, name=Xuan Hoai, address=Quy Nhon, email=hoai@gmail.com}
+Employee{id=E22-22, name=My Lan, address=Quang Tri, email=lan@gmail.com}
+Employee{id=E11-11, name=Xuan Hoai, address=Quy Nhon, email=abc@gmail.com}
+Employee{id=E22-22, name=My Lan, address=Quang Tri, email=lan@gmail.com}

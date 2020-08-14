@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE delivered-products SYSTEM 'giaohang.dtd'>
+
+<delivered-products>
+    <delivered-product>
+        <invoice id="IV123" date="2008/03/11" by="&truck;"/>
+        <customer>
+            <name>Tuan Anh</name>
+            <address>123 Le Thanh Ton 01</address>
+        </customer>
+        <product id="P00001">
+            <product-name>TV Sony Wega 46 inches</product-name>
+            <quantity>2</quantity>
+            <price>$400</price>
+        </product>
+    </delivered-product>
+</delivered-products>

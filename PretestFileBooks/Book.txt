@@ -1,0 +1,3 @@
+Book{bookID=B1111-A11, category=, title=Java, author=PXH, price=233.2}
+Book{bookID=B2222-A22, category=Lap Trinh, title=Java Web, author=PXH, price=23.43}
+Book{bookID=B1111-A11, category=Lap Trinh, title=Java Web, author=PXH, price=45.4}

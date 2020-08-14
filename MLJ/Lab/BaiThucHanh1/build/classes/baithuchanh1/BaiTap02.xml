@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InvoiceList xmlns:a="https://www.w3schools.com/" xmlns:b="https://www.w3schools.com/" xmlns:c="https://www.w3schools.com/">
+    <a:Invoice>
+        <OderID>
+            <name>KH 01</name>
+            <address>address 01</address>
+            <price>500</price>
+            <Cod>
+                <address>NN 01</address>
+                <method>MT 01</method>
+                <total>500</total>
+            </Cod>
+            <account>
+                <state>sts 01</state>
+                <id>01</id>
+                <info>
+                    <date>2020/04/09</date>
+                    <address>adinfo 01</address>
+                </info>
+            </account>
+            <description>des 01</description>
+        </OderID>
+    </a:Invoice>
+    <b:Invoice>
+        <OderID>
+            <name>KH 01</name>
+            <address>address 01</address>
+            <price>500</price>
+            <Cod>
+                <address>NN 01</address>
+                <method>MT 01</method>
+                <total>500</total>
+            </Cod>
+            <account>
+                <state>sts 01</state>
+                <id>01</id>
+                <info>
+                    <date>2020/04/09</date>
+                    <address>adinfo 01</address>
+                </info>
+            </account>
+            <description>des 01</description>
+        </OderID>
+    </b:Invoice>
+    <c:Invoice>
+        <OderID>
+            <name>KH 01</name>
+            <address>address 01</address>
+            <price>500</price>
+            <Cod>
+                <address>NN 01</address>
+                <method>MT 01</method>
+                <total>500</total>
+            </Cod>
+            <account>
+                <state>sts 01</state>
+                <id>01</id>
+                <info>
+                    <date>2020/04/09</date>
+                    <address>adinfo 01</address>
+                </info>
+            </account>
+            <description>des 01</description>
+        </OderID>
+    </c:Invoice>
+</InvoiceList>
